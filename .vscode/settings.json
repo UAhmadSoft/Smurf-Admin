@@ -1,0 +1,232 @@
+{
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.format.enable": false,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 34,
+  //    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "fira code",
+
+  // "terminal.integrated.shell.windows": "C:\\cmder\\Cmder.exe",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  // "terminal.integrated.env.windows": {
+  //    "CMDER_ROOT": "C:\\cmder"
+  // },
+  // "terminal.integrated.shellArgs.windows": [
+  //    "/k",
+  //    "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
+  // ],
+
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.formatOnPaste": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Defining custom colors instead of default "Rainbow" for dark backgrounds.
+  // (Sorry: Changing them needs an editor restart for now!)
+  "indentRainbow.colors": [
+    "rgba(255,255,153,0.2)",
+    "rgba(153,255,175,0.2)",
+    "rgba(110, 243, 236,0.2)",
+    "rgba(236, f176, 241,0.2)"
+  ],
+  "node_require.defaultRequireMethod": "require",
+  "npm-intellisense.importES6": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "workbench.statusBar.visible": true,
+  "tabnine.experimentalAutoImports": true,
+  "colorful-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#11a586",
+      // "color": "#0076FF",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "^",
+      "color": "#fff186",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#28FF00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "&",
+      "color": "#FF06A0",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "~",
+      "color": "#00ffff",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "@",
+      "color": "#00ffff",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "$",
+      "color": "#dd771e",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    // {
+    //    "tag": "%",
+    //    "color": "rgb(0, 4, 255)",
+    //    "strikethrough": false,
+    //    "backgroundColor": "transparent"
+    // },
+    {
+      "tag": "%",
+      "color": "rgb(255, 3, 213)",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.scale": 3,
+  "git.suggestSmartCommit": false,
+  "projectManager.git.baseFolders": [
+    "Color-App-Frontend",
+    "Color Project backend"
+  ],
+  "gitProjectManager.baseProjectsFolders": [
+    "D:/Kaam ki Baat/Web Stuff/Bootcamp and Courses/React js/My Practice for React by Clot Steal's Course/Color Project backend",
+    "/home/user/personal/pocs"
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "prettier.printWidth": 70,
+  "prettier.tabWidth": 3,
+  "workbench.editor.wrapTabs": true,
+  "editor.linkedEditing": true,
+  "workbench.preferredHighContrastColorTheme": "Monokai Dimmed",
+  "editor.detectIndentation": false,
+  "editor.fontLigatures": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": []
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "peacock.affectAccentBorders": true,
+  "peacock.affectDebuggingStatusBar": true,
+  "peacock.affectStatusAndTitleBorders": true,
+  "peacock.affectTabActiveBorder": true,
+"monokaiPro.fileIconsMonochrome": true,
+"workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#1f6fd0",
+    "activityBar.activeBorder": "#ee90bb",
+    "activityBar.background": "#1f6fd0",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#ee90bb",
+    "activityBarBadge.foreground": "#15202b",
+    "editorGroup.border": "#1f6fd0",
+    "panel.border": "#1f6fd0",
+    "sideBar.border": "#1f6fd0",
+    "statusBar.background": "#1857a4",
+    "statusBar.border": "#1857a4",
+    "statusBar.debuggingBackground": "#a46518",
+    "statusBar.debuggingBorder": "#a46518",
+    "statusBar.debuggingForeground": "#e7e7e7",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#1f6fd0",
+    "tab.activeBorder": "#1f6fd0",
+    "titleBar.activeBackground": "#1857a4",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.border": "#1857a4",
+    "titleBar.inactiveBackground": "#1857a499",
+    "titleBar.inactiveForeground": "#e7e7e799"
+},
+"peacock.color": "#1857a4"
+
+  // The indent color if the number of spaces is not a multiple of "tabSize".
+  // "indentRainbow.errorColor": "rgba(128,32,32,0.6)"
+
+  // // The indent color when there is a mix between spaces and tabs.
+  // // To be disabled this coloring set this to an empty string.
+  // "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)"
+}

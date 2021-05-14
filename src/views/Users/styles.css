@@ -1,0 +1,14 @@
+#test-table-xls-button {
+  text-transform: uppercase;
+  margin: 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  display: block;
+  border-radius: 10px;
+  background-color: #f3b33d;
+  color: #fff;
+  margin-left: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
